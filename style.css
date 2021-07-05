@@ -28,16 +28,15 @@ h1 {
     margin: 5%;
 }
 
+span {
+    color: orange
+}
 
 /* start intro section styling */
 
 #intro-section {
     padding: 0 20px;
     align-items: center;
-}
-
-#intro-section span {
-    color: orange
 }
 
 .intro-img {
@@ -77,6 +76,10 @@ start about section styling */
 /* end about section  */
 
 
+
+
+
+
 /* start recipes section  */
 
 .recipie-heading-container {
@@ -90,14 +93,15 @@ start about section styling */
 .recipies-item {
     width: 29%;
     margin: 4%;
-    box-shadow: 5px 5px 10px rgba(172, 151, 151, 0.296);
+    box-shadow: 5px 5px 20px rgba(28, 26, 26, 0.296);
     border: 5px solid white;
     border-radius: 15px;
     padding-bottom: 10px;
 }
 
-.recipies-item h1 {
-    color: bla
+.recipies-item  h2{
+    color:black;
+    font-weight: 900;
 }
 
 .recipies-items-img {
@@ -106,3 +110,61 @@ start about section styling */
     border: 5px solid white;
     border-radius: 15px;
 }
+
+.recipie-details{
+    padding-left: 7px;
+}
+
+/* end recipie section  */
+
+
+
+/* start social follower section  */
+#social-member-section{
+    padding: 20px 100px;
+    margin-bottom: 40px;
+}
+
+.social-member-container {
+    justify-content: space-around;
+    padding: 20px 80px;
+    margin:0 100px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px rgba(41, 39, 39, 0.296);
+}
+
+.social-member-item{
+    padding:0 20px;
+    width: 29%;
+    margin: 2%;
+    text-align: center;
+}
+
+.social-member-item h1{
+    margin:0px !important;
+    font-size: 70px;
+    color: black;
+    text-align: center;
+}
+/* end social follower  section  */
+
+
+
+
+
+
+/* start Footer section  */
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 4px 0 30px 0;
+}
+footer h2{
+    color: rgb(90, 80, 25);
+}
+footer p{
+    color: rgb(168, 195, 204);
+}
+/* end Footer section  */
