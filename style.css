@@ -24,6 +24,7 @@ h1{
 /* start intro section styling */
 #intro-section{
     padding: 0 20px;
+    align-items: center;
 }
 #intro-section span{
     color: orange
@@ -33,6 +34,36 @@ h1{
     margin: 5%;
 }
 .intro-half img{
-    width: 80%;
+    width: 100%;
 }
-/* end intro section styling */
+/* end intro section  
+
+start about section styling */
+
+#about-section{
+    background-image: url(images/bg1.png);
+    background-repeat: no-repeat;
+    background-position:initial;
+    background-size: cover;
+}
+
+.about-half{
+    width: 40%;
+    margin:5% 2% 5% 8%;
+}
+.about-half img{
+   height: 400px;
+   display: block;
+  
+}
+.about-img{
+    margin:2% 0 0 0px;
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+}
+
+/* end about section  */
+
+
+/* start recipes section  */
